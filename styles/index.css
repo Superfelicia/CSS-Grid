@@ -87,6 +87,13 @@ main {
     background-color: #BFD200;
 }
 
+/*--I tried putting the .rect_foot in it's on container
+and tried giving it 'display: flex' but it didn't work as
+I wanted it to.--*/
+
+/*--Also wanted the .rect_foot item to overfill the 'padding'
+of the .grid_container, but couln't work that out--*/
+
 .rect_foot {
     display: flex;
     grid-row: 11/13;
